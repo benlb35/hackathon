@@ -14,5 +14,5 @@ All the data that collectively form our Covid-19 dataset are listed below, with 
 
 #### GIS data
 
-#### All other data
+#### Other data
 
