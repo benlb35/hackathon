@@ -13,12 +13,15 @@ Reporting daily on the number of [newly recorded Covid-19 cases](https://coronav
 
 This data can be accessed via [this API](https://coronavirus.data.gov.uk/cases) and a notebook with analysis examples is [here.](https://coronavirus.data.gov.uk/cases)
 
+#### Daily NHS 111 and 999 Covid-19 Triage rates (Local Authority level)
+NHS Digital publishes the number of NHS 111 and 999 triages for Covid-19 daily. Reporting by age and gender at a Clinical Commissioning Group (CCG) level, we have attributed these figures at a Local Authority level to make them comparable with other incidence and demography data and also the business and economic metrics we outline in section 3 below.
 
-#### Population demography related data
 
-#### Industry and economy related data
+#### 2. Population demography related data
 
-#### GIS data
+#### 3. Industry and economy related data
 
-#### Other data
+#### 4. GIS data
+
+#### 5. Other data
 
