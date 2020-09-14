@@ -73,7 +73,7 @@ Along with an IMD score and ranks for each LSOA in England, the data includes co
 
 This data can be accessed via [this API](https://coronavirus.data.gov.uk/cases) and a notebook using this data can be found [here](https://coronavirus.data.gov.uk/cases). 
 
-#### Area Type Mapping
+#### Area type mapping
 
 We have created several tables, accessible via API, to map between the different area types which occur within our other data. 
 
