@@ -27,7 +27,7 @@ NHS Digital publishes the number of NHS 111 and 999 triages for Covid-19 daily. 
 <summary><strong>Section 1 API details</strong></summary>
 <br>
   
-| API Title | Description | Location | Filesize |
+| API Number | Method | Endpoint | Description |
 |-----------|-------------|----------|----------|
 |           |             |          |          |
 |           |             |          |          |
@@ -39,9 +39,60 @@ NHS Digital publishes the number of NHS 111 and 999 triages for Covid-19 daily. 
 
 #### 2. Population demography related data
 
+
+<details open>
+<summary><strong>Section 2 API details</strong></summary>
+<br>
+  
+| API Number | Method | Endpoint | Description |
+|-----------|-------------|----------|----------|
+|           |             |          |          |
+|           |             |          |          |
+|           |             |          |          |
+
+</details>
+
 #### 3. Industry and economy related data
+
+<details open>
+<summary><strong>Section 3 API details</strong></summary>
+<br>
+  
+| API Number | Method | Endpoint | Description |
+|-----------|-------------|----------|----------|
+|           |             |          |          |
+|           |             |          |          |
+|           |             |          |          |
+
+</details>
 
 #### 4. GIS data
 
+<details open>
+<summary><strong>Section 4 API details</strong></summary>
+<br>
+  
+| API Number | Method | Endpoint | Description |
+|-----------|-------------|----------|----------|
+|           |             |          |          |
+|           |             |          |          |
+|           |             |          |          |
+
+</details>
+
+
 #### 5. Other data
+
+<details open>
+<summary><strong>Section 5 API details</strong></summary>
+<br>
+  
+| API Number | Method | Endpoint | Description |
+|-----------|-------------|----------|----------|
+|           |             |          |          |
+|           |             |          |          |
+|           |             |          |          |
+
+</details>
+
 
