@@ -19,9 +19,15 @@ NHS Digital publishes the number of NHS 111 and 999 triages for Covid-19 daily. 
 
 #### 2. Population demography related data
 
+#### UK population breakdown (Local Authority level)
+
+The Office for National Statistics publishes a [mid-yearly report](https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationestimatesforukenglandandwalesscotlandandnorthernireland) estimating the population breakdown for every Local Authority in the UK, with several pages of supplementary information. We have collated the key attributes from this report into a table which includes an age breakdown, the median age and population density of each Local Authority.
+
+This data can be accessed through [this API](https://coronavirus.data.gov.uk/cases).
+
 #### England/Wales age distribution (Local Authority/LSOA level)
 
-This data is sourced directly from the [Office for National Statistics](https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/lowersuperoutputareamidyearpopulationestimates) who provide mid-year estimates of the usual resident population for Lower layer Super Output Areas (LSOAs) in England and Wales. The data also contains information at Local Authority level.
+The ONS also separately publishes an [age breakdown at LSOA level for England and Wales](https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/lowersuperoutputareamidyearpopulationestimates) and their corresponding Local Authorities. Since most of our analysis has been conducted at LSOA level, we have created a separate table for this information. Unfortunately, neither Scotland nor Northern Ireland publish data at LSOA level.
 
 The table contains a full breakdown of ages, with columns representing each age up to 90 years old. Residents of 90 years or older are grouped together. 
 
@@ -46,6 +52,22 @@ The IMD data for England at LSOA level is publicly made available through the [M
 Along with an IMD score and ranks for each LSOA in England, the data includes columns representing the variables used in calculating the IMD score. These variables include health indicators, employment percentages, crime levels and average income (amongst others). 
 
 This data can be accessed via [this API](https://coronavirus.data.gov.uk/cases) and a notebook using this data can be found [here](https://coronavirus.data.gov.uk/cases). 
+
+#### Area Type Mapping
+
+We have created several tables, accessible via API, to map between the different area types which occur within our other data. 
+
+The [first API](https://coronavirus.data.gov.uk/cases) maps between LSOA and UTLA (Upper Tier Local Authority). These mappings are publicly available through [the ONS](https://geoportal.statistics.gov.uk/datasets/9f4c270148014f20bf24abff9a7aef62_0).
+
+The second [API maps](https://coronavirus.data.gov.uk/cases) between LTLA (Lower Tier Local Authority) and UTLA (Upper Tier Local Authority). These mappings are also publicly available through [the ONS](https://geoportal.statistics.gov.uk/datasets/lower-tier-local-authority-to-upper-tier-local-authority-april-2019-lookup-in-england-and-wales).
+
+The [third](https://coronavirus.data.gov.uk/cases) maps UK post codes to LTLA, LSOA (Lower layer Super Output Area) and MSOA (Middle layer Super Output Area). Most of the data in this section are reported at LSOA level, so this API is useful for linking to other area types. These mappings are again publicly available through [the ONS](https://geoportal.statistics.gov.uk/datasets/80628f9289574ba4b39a76ca7830b7e9_0).
+
+Here below is a key of these area types in ascending order of size:
+
+Postcode &rightarrow; LSOA &rightarrow; MSOA &rightarrow; LTLA &rightarrow; UTLA 
+
+There may be slight differences in the data for the name of these area types, but each has a correspnding unique area code which can be used to merge/join tables.
 
 
 #### 3. Industry and economy related data
