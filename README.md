@@ -11,7 +11,7 @@ All the data that collectively form our Covid-19 dataset are listed below, with 
 #### Daily incidence rates (Local Authority level)
 Reporting daily on the number of [newly recorded Covid-19 cases](https://coronavirus.data.gov.uk/cases) by Local Authority. This data also reports the Local Authority population size, enabling the incidence rate (typically per 10,000 or per 100,000 people) of Covid-19 to be derived.
 
-This data can be accessed via [this API](https://coronavirus.data.gov.uk/cases) and a notebook with analysis examples is [here.](https://coronavirus.data.gov.uk/cases)
+This data can be accessed via API number 3, located in the table at the end of the section, a notebook with example analysis can be found [here](https://www.tablesgenerator.com/markdown_tables)
 
 #### Daily incidence rates (Middle Layer Super Output Area level)
 Reporting daily on the number of [newly recorded Covid-19 cases](https://coronavirus.data.gov.uk/cases) at the 
@@ -29,9 +29,9 @@ NHS Digital publishes the number of NHS 111 and 999 triages for Covid-19 daily. 
   
 | API Number | Method | Endpoint | Description |
 |-----------|-------------|----------|----------|
-|           |             |          |          |
-|           |             |          |          |
-|           |             |          |          |
+|3           |GET             |https://iqapi.azurewebsites.net/api/CoronaVirusCase          | Cumulative and daily Covid-19 incidence rates by date and upper and lower level Local Authority          |
+|18           |GET             |https://iqapi.azurewebsites.net/api/UkmsoaCases          | Enriched dataset of weekly Covid-19 incidence rates at Middle Super Output Area (MSOA) level         |
+|6           |GET            |https://iqapi.azurewebsites.net/api/NhsPathwaysCovid19Data          |Enriched dataset reporting on estimated daily NHS 111, 111-online and 999 triages for Covid-19 triages at a Local Authority level          |
 
 </details>
 
