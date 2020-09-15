@@ -75,13 +75,13 @@ This data can be accessed via [this API](https://coronavirus.data.gov.uk/cases) 
 
 #### Area type mapping
 
-We have created several tables, accessible via API, to map between the different area types which occur within our other data. 
+Several tables are available via download from the ONS to map between the different area types which occur within our other data. 
 
-The [first API](https://coronavirus.data.gov.uk/cases) maps between LSOA and UTLA (Upper Tier Local Authority). These mappings are publicly available through [the ONS](https://geoportal.statistics.gov.uk/datasets/9f4c270148014f20bf24abff9a7aef62_0).
+The first maps between LSOA and UTLA (Upper Tier Local Authority). This data can be found [here](https://geoportal.statistics.gov.uk/datasets/9f4c270148014f20bf24abff9a7aef62_0).
 
-The second [API maps](https://coronavirus.data.gov.uk/cases) between LTLA (Lower Tier Local Authority) and UTLA (Upper Tier Local Authority). These mappings are also publicly available through [the ONS](https://geoportal.statistics.gov.uk/datasets/lower-tier-local-authority-to-upper-tier-local-authority-april-2019-lookup-in-england-and-wales).
+The second maps between LTLA (Lower Tier Local Authority) and UTLA (Upper Tier Local Authority). This data is available [here](https://geoportal.statistics.gov.uk/datasets/lower-tier-local-authority-to-upper-tier-local-authority-april-2019-lookup-in-england-and-wales).
 
-The [third](https://coronavirus.data.gov.uk/cases) maps UK post codes to LTLA, LSOA (Lower layer Super Output Area) and MSOA (Middle layer Super Output Area). Most of the data in this section are reported at LSOA level, so this API is useful for linking to other area types. These mappings are again publicly available through [the ONS](https://geoportal.statistics.gov.uk/datasets/80628f9289574ba4b39a76ca7830b7e9_0).
+The third maps UK post codes to LTLA, LSOA (Lower layer Super Output Area) and MSOA (Middle layer Super Output Area).You can find this data [here](https://geoportal.statistics.gov.uk/datasets/80628f9289574ba4b39a76ca7830b7e9_0).
 
 Here below is a key of these area types in ascending order of size:
 
